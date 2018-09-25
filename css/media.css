@@ -1,0 +1,619 @@
+/* mobile screen*/
+@media (max-width: 480px)
+{
+    .sup .a  .slider-o .slider-image ul p
+{
+    
+    font-size:8px;
+    width:300px;
+    height:70px;
+    margin-left:50px; 
+}
+.sup .a  .slider-o .label label:nth-child(1){left:150px;}
+.sup .a  .slider-o .label label:nth-child(2){left:175px;}
+.sup .a  .slider-o .label label:nth-child(3){left:200px;}
+.sup .a  .slider-o .label label:nth-child(4){left:225px;}
+.sup .a  .slider-o .slider-image ul h3
+{
+position: absolute;
+top: 320px;
+left:150px;     
+}
+    /************************start home**************************/
+    header
+    {
+        margin-top: -50px
+    }
+    .bxslider h1
+    {
+       margin-left:-70px;
+       display: inline-block;
+       margin-right: -250px
+    }
+    .bxslider ul li
+    {
+        display: none
+    }
+    header .list
+    {
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        border-radius: 5px;  
+        float: right
+    }
+    .bxslider ul li
+    {
+        display: none;
+        border: 1px lightgray solid;
+        border-radius: 7px;
+        width: 150px;
+        padding: 5px;
+        cursor: pointer
+    }
+    .bxslider ul li:hover 
+    {
+        background-color: #f1d204
+    }
+    .bxslider ul li:hover  a
+    {
+        color: white
+    }
+    .bxslider ul+p
+    {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -10px
+    }
+    .bxslider button
+    {
+        margin-left: 50px;
+        display: block
+    }
+/**********************************************end home**********************************/
+/*********************************************start about********************************/
+.about .container p
+{
+    font-size:8px;     
+}
+.about .container .box
+{
+    margin-left:27% 
+}
+.about .container .box
+{
+     width:60%;
+}    
+    .about .container .box-one .window
+{
+    margin-left:50%;
+
+}
+.about .container .box-two .window
+{
+    margin-left:63%;
+}
+.about .container .box-three .window
+{
+    margin-left:67%;
+}     
+/*********************************************end about**********************************/
+/********************************************start portofolio****************************/
+#portofolio 
+    {
+        margin-top: 650px
+    }
+#portofolio div img
+    {
+        width: 50%;
+        height: 50%
+    }
+/*****************************************end portofolio********************************/
+/****************************************start testimonials*****************************/
+.sup .a  .slider-o .slider-image ul p
+{
+    font-size:12px;
+    width: 95%;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+}
+.sup .a  .slider-o .label label,
+.sup h3
+    {
+        text-align: center;
+        margin-left: -50px
+    }
+/*************************************end testimonials********************************/
+/*************************************start services**********************************/
+#services div div
+    {
+        width: 90%;
+        margin: auto;
+        padding-top: 30px
+    }
+/*************************************end services************************************/
+/*******************************************start services****************************/
+    #services div div
+    {
+        display: block
+    }
+/*******************************************end services******************************/
+/*********************************start latest****************************/    
+.latest .container button
+{
+    padding:15px;
+    font-size:10px;   
+    width:25%;     
+}
+.latest .container .three
+{
+    position: relative;
+    bottom:0px;     
+}
+/*********************************end latest****************************/ 
+
+/*********************************start contact*************************/
+     #contact-us
+    {
+        height: 950px
+    }
+    #contact-us div form input,
+    #contact-us div form textarea
+    {
+        display: block;
+        width: 85%
+    }
+    #contact-us div form input[name="myName"],
+    #contact-us div form textarea
+    {
+        margin-left: 20px
+    }
+/*********************************end contact***************************/
+/*********************************start footer***************************/    
+.footer .products,
+.footer .information,
+.footer .support
+{
+    margin-left:15px;   
+}
+/*********************************end footer***************************/    
+}
+
+/*smart phone and tablets*/
+/*********************************************start home********************************/
+@media (min-width: 480px) and (max-width: 767px)
+{
+    .bxslider h1
+    {
+       margin-left:-70px;
+       display: inline-block;
+       margin-right: -250px
+    }
+    .bxslider ul li
+    {
+        display: none
+    }
+    header .list
+    {
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        border-radius: 5px;  
+        float: right
+    }
+    .bxslider ul li
+    {
+        display: none;
+        border: 1px lightgray solid;
+        border-radius: 7px;
+        width: 150px;
+        padding: 5px;
+        cursor: pointer
+    }
+    .bxslider ul li:hover 
+    {
+        background-color: #f1d204
+    }
+    .bxslider ul li:hover  a
+    {
+        color: white
+    }
+    .bxslider ul+p
+    {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -10px
+    }
+    .bxslider button
+    {
+        margin-left: 40px
+    }
+/*********************************************end home********************************/
+/*********************************************start about********************************/
+.about .container p
+{
+    font-size:10px; 
+}
+.about .container .box
+{
+    margin-left:27%;
+}
+.about .container .box
+{
+     width:60%;
+}    
+    .about .container .box-one .window
+{
+    margin-left:50%;
+
+}
+.about .container .box-two .window
+{
+    margin-left:73%;
+}
+.about .container .box-three .window
+{
+    margin-left:77%;
+}    
+/*********************************************end about********************************/
+/********************************************start portofolio****************************/
+    #portofolio 
+    {
+        margin-top: 650px
+    }
+    #portofolio div img
+    {
+        width: 50%;
+        height: 50%
+    }
+/********************************************end portofolio******************************/
+/********************************************start testimonials************************/
+.sup .a  .slider-o .slider-image ul p
+{ 
+    font-size:12px;
+    width: 95%;
+    height: 100px;
+    text-align: center;
+    margin: auto
+}
+.sup .a  .slider-o .label label,
+.sup h3
+    {
+        text-align: center;
+        margin-left: -250px
+    }
+/*****************************************end testimonials*****************************/
+/*******************************************start services****************************/
+    #services div div
+    {
+        display: block;
+        width: 90%;
+        padding-top: 30px
+    }
+/*******************************************end services******************************/
+/*********************************start latest****************************/    
+.latest .container button
+{
+    padding:15px;
+    font-size:14px;   
+    width:25%;     
+}
+.latest .container .three
+{
+    position: relative;
+    bottom:0px;     
+}
+.latest .container .one,
+.latest .container .two,
+.latest .container .three
+{    
+    width: 650px;
+    height:500px;
+}
+.latest .container .one img,
+.latest .container .two img,
+.latest .container .three img
+{
+    width: 650px; 
+}
+.latest .container  .one .address,
+.latest .container  .one .paragraph,
+.latest .container  .one .link,
+.latest .container  .two .address,
+.latest .container  .two .paragraph,
+.latest .container  .two .link,
+.latest .container  .three .address,
+.latest .container  .three .paragraph,
+.latest .container  .three .link
+{
+    margin-top:10%;   
+}
+/*********************************end latest****************************/
+
+/*********************************start contact************************/
+    #contact-us
+    {
+        height: 850px
+    }
+    #contact-us div form input,
+    #contact-us div form textarea
+    {
+        display: block;
+        width: 85%
+    }
+    #contact-us div form input[name="myName"],
+    #contact-us div form textarea
+    {
+        margin-left: 20px
+    }
+/*********************************end contact**************************/
+}
+
+/*small screens*/
+/*********************************************start home********************************/   
+@media (min-width: 768px) and (max-width: 991px)
+{
+   .bxslider h1
+    {
+       margin-left:-70px;
+       display: inline-block;
+       margin-right: -250px
+    }
+    .bxslider ul li
+    {
+        display: none;
+        border: 1px lightgray solid;
+        border-radius: 7px;
+        width: 150px;
+        padding: 5px;
+        cursor: pointer
+    }
+    .bxslider ul li:hover 
+    {
+        background-color: #f1d204
+    }
+    .bxslider ul li:hover  a
+    {
+        color: white
+    }
+    header .list
+    {
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        border-radius: 5px;  
+        float: right
+    }
+    .bxslider ul+p
+    {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -10px
+    }
+    .bxslider button
+    {
+        margin-left: 40px
+    }
+/*********************************************end home********************************/ 
+/*********************************************start about********************************/
+.about .container p
+{
+    font-size:12px;     
+}
+.about .container .box
+{
+     width:60%;
+}
+.about .container .box
+{
+    margin-left:27% 
+}
+    .about .container .box-one .window
+{
+    margin-left:52%;
+
+}   
+.about .container .box-two .window
+{
+    margin-left:75%;
+}
+.about .container .box-three .window
+{
+    margin-left:79%;
+}    
+/*********************************************end about********************************/ 
+/*********************************************start portofolio***************************/
+    #portofolio 
+    {
+        margin-top: 650px
+    }
+    #portofolio div img
+    {
+        width: 25%
+    }
+/********************************************end portofolio******************************/
+/*********************************************start testimonials***********************/
+.sup .a  .slider-o .slider-image ul p
+{ 
+    font-size:13px;
+    width:90%;
+    height:80px
+}
+.label,
+.sup h3
+    {
+        margin-left: -250px
+        
+    }
+/*******************************************end testimonials**************************/
+/*********************************start latest****************************/    
+.latest .container button
+{
+    padding:15px;
+    font-size:14px;   
+    width:25%;     
+}
+.latest .container .one,
+.latest .container .two,
+.latest .container .three
+{   
+    margin-left:2%;
+    width:270px;
+    height:500px;    
+}
+.latest .container .two
+{
+   position: relative;
+   top:20px;     
+}
+.latest .container .one img,
+.latest .container .two img,
+.latest .container .three img
+{     
+    width:270px;   
+}
+/*********************************end latest****************************/ 
+/*********************************start contact*************************/
+#contact-us div span,
+    #contact-us div a i
+    {
+       padding-right: 10px
+    }
+    #contact-us div form input
+    {
+        width: 20%;
+        padding-right: 10px
+    }
+    #contact-us div form textarea
+    {
+        width: 73%
+    }
+    #contact-us div form input[value="SEND"]
+    {
+        margin-right:  15%
+    }
+/*********************************end contact*************************/
+/*********************************start footer***************************/    
+.footer .products,
+.footer .information,
+.footer .support
+{
+    margin-left:1.5%;   
+}
+/*********************************end footer***************************/    
+}
+
+/*medium screen*/
+/*********************************************start home********************************/ 
+@media(min-width: 992px) and (max-width: 1350px)
+{
+    h1,ul,
+    header ul li div ul li
+    {
+        display: inline-block
+    }
+    h1
+    {
+        margin-left: -30px;
+        margin-right: -100px
+    }
+    .bxslider li ul li a
+    {
+        padding-right: 13px
+    }
+    .bxslider p+button
+    {
+        margin-left: 300px
+    }
+/*********************************************end home********************************/ 
+/*********************************************start about********************************/
+.about .container p
+{
+    font-size:14px;
+}
+.about .container .box
+{
+     width:60%;
+}
+.about .container .box
+{
+    margin-left:27% 
+}
+    .about .container .box-one .window
+{
+    margin-left:53%;
+
+}   
+.about .container .box-two .window
+{
+    margin-left:76%;
+}
+.about .container .box-three .window
+{
+    margin-left:80%;
+}    
+/*********************************************end about********************************/
+/*********************************************start portofolio***************************/
+    #portofolio 
+    {
+        margin-top: 650px
+    }
+    #portofolio div img
+    {
+        width: 25%
+    }
+/********************************************end portofolio******************************/
+/*********************************************start testimonials***********************/
+.sup .a  .slider-o .slider-image ul p
+{
+    
+    font-size:12px;
+    width:90;
+    height:90px;
+    margin: auto 
+}
+.label,
+.sup h3
+    {
+        margin-left: -100px
+    }
+/********************************************end tesimonials**************************/
+/*********************************start latest****************************/    
+.latest .container button
+{
+    padding:15px;
+    font-size:14px;   
+    width:25%;     
+}
+/*********************************end latest****************************/  
+
+/*********************************start contact*************************/
+    #contact-us div span,
+    #contact-us div a i
+    {
+       padding-right: 10px
+    }
+    #contact-us div form input
+    {
+        width: 20%;
+        padding-right: 10px
+    }
+    #contact-us div form textarea
+    {
+        width: 73%
+    }
+    #contact-us div form input[value="SEND"]
+    {
+        margin-right:  15%
+    }
+/*********************************end contact***************************/
+/*********************************start footer***************************/    
+.footer .products,
+.footer .information,
+.footer .support
+{
+    margin-left:8%;   
+}
+/*********************************end footer***************************/    
+}
